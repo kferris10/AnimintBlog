@@ -1,0 +1,14 @@
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Vollkorn', sans-serif;
+	font-weight: bold;
+}
+p, li {
+	font-family: 'Oswald', sans-serif;
+	color: #585858;
+}
+p {
+	font-size: 16px;
+}
+h2 {
+	margin-top: -3px;
+}
