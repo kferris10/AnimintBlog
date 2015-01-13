@@ -12,12 +12,3 @@ p {
 h2 {
 	margin-top: -3px;
 }
-.thumbnail-image {
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    transform: rotate(90deg);
-	background: "img/kevin-cbp.jpg"
-	background-size: cover;
-}
