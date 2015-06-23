@@ -227,7 +227,7 @@ viz <- list(world = a_world,
             time = list(variable = "year", ms = 300))
 ```
 
-[<img src="{{ site.url}}/images/posts/2015-06-24-Vizualizing-Pirate-Attacks-in-R_files/tiles_viz.png">](http://bl.ocks.org/kferris10/raw/7eb089f6fd8ae35de814/)
+[<img src="{{ site.url}}/images/posts/2015-06-24-Vizualizing-Pirate-Attacks-in-R_files/tiles_viz.PNG">](http://bl.ocks.org/kferris10/raw/7eb089f6fd8ae35de814/)
 
 ## Change for Each Tile
 
