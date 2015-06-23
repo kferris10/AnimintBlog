@@ -1,7 +1,9 @@
-# Vizualizing Pirate Attacks in R
-Kevin  
-
-
+---
+layout: post
+title: Vizualizing Pirate Attacks in R
+date: June 24, 2015
+author: Kevin  
+---
 
 [Animint](https://github.com/tdhock/animint) is an R package which allows users to make animated and interactive web graphics from `ggplot2` plots.  To get started, [follow the installation instructions](https://github.com/tdhock/animint#installation) in the README.
 
