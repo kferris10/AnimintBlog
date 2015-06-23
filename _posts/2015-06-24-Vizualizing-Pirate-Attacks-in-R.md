@@ -66,7 +66,7 @@ library(gridExtra)
 grid.arrange(p_time, p_world, ncol = 2)
 ```
 
-<img src="2015-06-24-Vizualizing-Pirate-Attacks-in-R_files/figure-html/print_ggplot2-1.png" title="" alt="" style="display: block; margin: auto;" />
+<img src="{{ site.url}}/images/posts/2015-06-24-Vizualizing-Pirate-Attacks-in-R_files/figure-html/print_ggplot2-1.png" title="" alt="" style="display: block; margin: auto;" />
 
 ## Animating with Animint
 
@@ -130,7 +130,7 @@ ggplot() +
              data = pirates)
 ```
 
-<img src="2015-06-24-Vizualizing-Pirate-Attacks-in-R_files/figure-html/ggplot_heatmap-1.png" title="" alt="" style="display: block; margin: auto;" />
+<img src="{{ site.url}}/images/posts/2015-06-24-Vizualizing-Pirate-Attacks-in-R_files/figure-html/ggplot_heatmap-1.png" title="" alt="" style="display: block; margin: auto;" />
 
 From this graphic, it appears that coasts of Liberia, Thailand, Somalia, and Eastern India have been hit hardest by pirate attacks.  But we don't know when these attacks occurred.  For that we can turn to animint.
 
@@ -227,7 +227,7 @@ viz <- list(world = a_world,
             time = list(variable = "year", ms = 300))
 ```
 
-[<img src="2015-06-24-Vizualizing-Pirate-Attacks-in-R_files/tiles_viz.png">](http://bl.ocks.org/kferris10/raw/7eb089f6fd8ae35de814/)
+[<img src="{{ site.url}}/images/posts/2015-06-24-Vizualizing-Pirate-Attacks-in-R_files/tiles_viz.png">](http://bl.ocks.org/kferris10/raw/7eb089f6fd8ae35de814/)
 
 ## Change for Each Tile
 
@@ -240,7 +240,7 @@ ggplot() +
             data = pirate_tiles)
 ```
 
-<img src="2015-06-24-Vizualizing-Pirate-Attacks-in-R_files/figure-html/ggplot_tile_time-1.png" title="" alt="" style="display: block; margin: auto;" />
+<img src="{{ site.url}}/images/posts/2015-06-24-Vizualizing-Pirate-Attacks-in-R_files/figure-html/ggplot_tile_time-1.png" title="" alt="" style="display: block; margin: auto;" />
 
 
 First we'll update the tile plot so that we can select tiles by clicking them.
@@ -280,7 +280,7 @@ viz <- list(world = a_world,
             first = list(id = 767))
 ```
 
-[<img src="2015-06-24-Vizualizing-Pirate-Attacks-in-R_files/tiles_over_time_viz.png">](http://bl.ocks.org/kferris10/raw/5237fea797e3ff993535/)
+[<img src="{{ site.url}}/images/posts/2015-06-24-Vizualizing-Pirate-Attacks-in-R_files/tiles_over_time_viz.png">](http://bl.ocks.org/kferris10/raw/5237fea797e3ff993535/)
 
 ## Cleaning up the Plots
 
@@ -297,7 +297,7 @@ Now that we have the basic visualizations set up, we just need some polishing an
 
 The updated code is below the screenshot.  Click the screenshot to see a live example.
 
-[<img src="2015-06-24-Vizualizing-Pirate-Attacks-in-R_files/final_viz.png">](http://bl.ocks.org/kferris10/raw/cea1f4bcf73ae3b41ae2/)
+[<img src="{{ site.url}}/images/posts/2015-06-24-Vizualizing-Pirate-Attacks-in-R_files/final_viz.png">](http://bl.ocks.org/kferris10/raw/cea1f4bcf73ae3b41ae2/)
 
 
 ```r
