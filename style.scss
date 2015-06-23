@@ -117,6 +117,12 @@ pre {
   font-family: "Lucida Console", Monaco, monospace;
 }
 
+code {
+  font-size: 14px;
+  font-family: "Lucida Console", Monaco, monospace;
+  background: "lightgrey";
+}
+
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
