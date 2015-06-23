@@ -297,7 +297,7 @@ Now that we have the basic visualizations set up, we just need some polishing an
 
 The updated code is below the screenshot.  Click the screenshot to see a live example.
 
-[<img src="{{ site.url}}/images/posts/2015-06-24-Vizualizing-Pirate-Attacks-in-R_files/final_viz.PNG">](http://bl.ocks.org/kferris10/raw/cea1f4bcf73ae3b41ae2/)
+[<img src="{{ site.url}}/images/posts/2015-06-24-Vizualizing-Pirate-Attacks-in-R_files/final_viz.png">](http://bl.ocks.org/kferris10/raw/cea1f4bcf73ae3b41ae2/)
 
 
 ```r
