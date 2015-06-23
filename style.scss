@@ -112,6 +112,11 @@ img {
   max-width: 100%;
 }
 
+pre {
+  font-size: 14px;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
