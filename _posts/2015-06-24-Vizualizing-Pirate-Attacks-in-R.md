@@ -9,7 +9,7 @@ author: Kevin
 
 In this example, we'll use animint to vizualize pirate attacks over the last 20 years.  Below is an image of the vizualization we'll end up with.  Click on it to see a live version.
 
-[<img src="https://github.com/kferris10/kferris10.github.io/tree/master/images/posts/2015-06-24-Vizualizing-Pirate-Attacks-in-R_files/final_viz.png">](http://bl.ocks.org/kferris10/raw/cea1f4bcf73ae3b41ae2/)
+[<img src="{{ site.url}}/images/posts/2015-06-24-Vizualizing-Pirate-Attacks-in-R_files/final_viz.png">](http://bl.ocks.org/kferris10/raw/cea1f4bcf73ae3b41ae2/)
 
 ## Pirates Data
 
