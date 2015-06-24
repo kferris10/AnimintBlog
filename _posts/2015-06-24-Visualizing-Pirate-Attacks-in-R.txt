@@ -292,7 +292,7 @@ Now that we have the basic visualizations set up, we just need some polishing an
 * clean up axis labels on time plots, remove them from maps
 * use `make_text()` to add the year to the maps
 * use `geom_text()` to add a label to the selected tiles in both the world map and time plots; for the time plot, I create a new data.frame with the location of each label
-* use `scale_fill_gradient()` to make the colour scale more appealling
+* use `scale_fill_gradient()` to make the color scale more appealing
 * use `theme_animint()` to manually set heights and widths so we will have two rows and two columns of plots
 
 The updated code is below the screenshot.  Click the screenshot to see a live example.
