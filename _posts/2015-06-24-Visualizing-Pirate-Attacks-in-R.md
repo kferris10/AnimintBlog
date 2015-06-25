@@ -112,10 +112,10 @@ viz <- list(world = a_world,
 structure(viz, class = "animint")
 ```
 
-<script type="text/javascript" src="knitranimint/vendor/d3.v3.js"></script>
-<script type="text/javascript" src="knitranimint/animint.js"></script><p></p>
+<script type="text/javascript" src="{{ site.baseurl}}/images/posts/2015-06-24-Visualizing-Pirate-Attacks-in-R_files/knitranimint/vendor/d3.v3.js"></script>
+<script type="text/javascript" src="{{ site.baseurl}}/images/posts/2015-06-24-Visualizing-Pirate-Attacks-in-R_files/knitranimint/animint.js"></script><p></p>
 <div id="knitranimint"></div>
-<script>var plot = new animint("#knitranimint", "knitranimint/plot.json");</script>
+<script>var plot = new animint("#knitranimint", "{{ site.baseurl}}/images/posts/2015-06-24-Visualizing-Pirate-Attacks-in-R_files/knitranimint/plot.json");</script>
 
 ## Adding a Heatmap
 

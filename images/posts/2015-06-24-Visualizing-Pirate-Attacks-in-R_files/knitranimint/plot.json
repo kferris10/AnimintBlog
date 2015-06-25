@@ -1,0 +1,382 @@
+{
+ "geoms": {
+ "geom1_polygon_world": {
+ "geom": "polygon",
+"classed": "geom1_polygon_world",
+"aes": {
+ "x": "long",
+"y": "lat",
+"group": "group" 
+},
+"params": {
+ "colour": "#006400",
+"fill": "#D3D3D3" 
+},
+"subset_order": [],
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"group": "integer",
+"PANEL": "integer" 
+},
+"PANEL": 1,
+"chunks": 1,
+"total": 1,
+"chunk_order": [],
+"nest_order": [
+ "group" 
+],
+"nextgeom": "geom2_point_world" 
+},
+"geom2_point_world": {
+ "geom": "point",
+"classed": "geom2_point_world",
+"aes": {
+ "x": "coords.x1",
+"y": "coords.x2",
+"showSelected": "year" 
+},
+"params": {
+ "na.rm": false 
+},
+"subset_order": [],
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"showSelected": "numeric",
+"PANEL": "integer" 
+},
+"PANEL": 1,
+"chunks": {
+ "1978": 1,
+"1979": 2,
+"1980": 3,
+"1981": 4,
+"1983": 5,
+"1984": 6,
+"1985": 7,
+"1986": 8,
+"1987": 9,
+"1988": 10,
+"1989": 11,
+"1990": 12,
+"1991": 13,
+"1992": 14,
+"1993": 15,
+"1994": 16,
+"1995": 17,
+"1996": 18,
+"1997": 19,
+"1998": 20,
+"1999": 21,
+"2000": 22,
+"2001": 23,
+"2002": 24,
+"2003": 25,
+"2004": 26,
+"2005": 27,
+"2006": 28,
+"2007": 29,
+"2008": 30,
+"2009": 31,
+"2010": 32,
+"2011": 33,
+"2012": 34,
+"2013": 35 
+},
+"total": 35,
+"chunk_order": [
+ "year" 
+],
+"nest_order": [],
+"timeValues": [   2012,   2013,   1997,   2000,   2007,   2005,   2002,   2001,   1996,   1995,   2011,   2010,   2009,   2008,   2006,   2004,   2003,   1999,   1998,   1994,   1990,   1989,   1988,   1981,   1993,   1992,   1991,   1986,   1985,   1987,   1984,   1980,   1983,   1978,   1979 ] 
+},
+"geom3_line_timeSeries": {
+ "geom": "line",
+"classed": "geom3_line_timeSeries",
+"aes": {
+ "x": "year",
+"y": "total_attacks" 
+},
+"params": [],
+"subset_order": [],
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"PANEL": "integer",
+"group": "integer" 
+},
+"PANEL": 1,
+"chunks": 1,
+"total": 1,
+"chunk_order": [],
+"nest_order": [],
+"nextgeom": "geom4_tallrect_timeSeries" 
+},
+"geom4_tallrect_timeSeries": {
+ "geom": "tallrect",
+"classed": "geom4_tallrect_timeSeries",
+"aes": {
+ "xmin": "xmin",
+"xmax": "xmax",
+"clickSelects": "year" 
+},
+"params": {
+ "alpha":    0.5 
+},
+"subset_order": [],
+"types": {
+ "xmin": "numeric",
+"xmax": "numeric",
+"clickSelects": "numeric",
+"PANEL": "integer",
+"group": "integer" 
+},
+"PANEL": 1,
+"chunks": 1,
+"total": 1,
+"chunk_order": [],
+"nest_order": [],
+"timeValues": [   1978,   1979,   1980,   1981,   1983,   1984,   1985,   1986,   1987,   1988,   1989,   1990,   1991,   1992,   1993,   1994,   1995,   1996,   1997,   1998,   1999,   2000,   2001,   2002,   2003,   2004,   2005,   2006,   2007,   2008,   2009,   2010,   2011,   2012,   2013 ] 
+} 
+},
+"time": {
+ "variable": "year",
+"ms":    300,
+"sequence": [ "1978", "1979", "1980", "1981", "1983", "1984", "1985", "1986", "1987", "1988", "1989", "1990", "1991", "1992", "1993", "1994", "1995", "1996", "1997", "1998", "1999", "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013" ] 
+},
+"selectors": {
+ "year": {
+ "selected": "1978",
+"type": "single",
+"update": [
+ "geom2_point_world",
+"geom4_tallrect_timeSeries" 
+],
+"chunks": "year" 
+} 
+},
+"plots": {
+ "world": {
+ "strips": {
+ "top": [
+ "" 
+],
+"right": [
+ "" 
+],
+"n": {
+ "top":      0,
+"right":      0 
+} 
+},
+"layout": {
+ "PANEL": [ 1 ],
+"ROW": [ 1 ],
+"COL": [ 1 ],
+"SCALE_X": [ 1 ],
+"SCALE_Y": [ 1 ],
+"AXIS_X": [ true ],
+"AXIS_Y": [ true ],
+"coord_fixed": [ false ],
+"width_proportion": [      1 ],
+"height_proportion": [      1 ] 
+},
+"geoms": [
+ "geom1_polygon_world",
+"geom2_point_world" 
+],
+"panel_background": {
+ "fill": "#E5E5E5",
+"colour": "transparent",
+"size": null,
+"linetype": "solid" 
+},
+"panel_border": [],
+"grid_major": {
+ "colour": "#FFFFFF",
+"size":      1,
+"linetype": "solid",
+"lineend": null,
+"loc": {
+ "x": [ 0.24178, 0.48731, 0.73285, 0.97838 ],
+"y": [ 0.23609, 0.50503, 0.77396 ] 
+} 
+},
+"grid_minor": {
+ "colour": "#F2F2F2",
+"size":   0.25,
+"linetype": "solid",
+"lineend": null,
+"loc": {
+ "x": [ 0.11901, 0.36455, 0.61008, 0.85562 ],
+"y": [ 0.10162, 0.37056, 0.63949, 0.90843 ] 
+} 
+},
+"axis1": {
+ "x": [
+ 0.24178,
+0.48731,
+0.73285,
+0.97838 
+],
+"xlab": [
+ "-100",
+"0",
+"100",
+"200" 
+],
+"xrange": [ -198.47,  208.8 ],
+"xline": true,
+"xticks": true,
+"y": [
+ 0.23609,
+0.50503,
+0.77396 
+],
+"ylab": [
+ "-50",
+"0",
+"50" 
+],
+"yrange": [ -93.894, 92.025 ],
+"yline": true,
+"yticks": true 
+},
+"xtitle": "long",
+"xanchor": "middle",
+"xangle":      0,
+"ytitle": "lat",
+"yanchor": "end",
+"yangle":      0,
+"xlabs": [
+ "-100",
+"0",
+"100",
+"200" 
+],
+"ylabs": [
+ "-50",
+"0",
+"50" 
+],
+"legend": {},
+"options": {
+ "width":    400,
+"height":    400 
+} 
+},
+"timeSeries": {
+ "strips": {
+ "top": [
+ "" 
+],
+"right": [
+ "" 
+],
+"n": {
+ "top":      0,
+"right":      0 
+} 
+},
+"layout": {
+ "PANEL": [ 1 ],
+"ROW": [ 1 ],
+"COL": [ 1 ],
+"SCALE_X": [ 1 ],
+"SCALE_Y": [ 1 ],
+"AXIS_X": [ true ],
+"AXIS_Y": [ true ],
+"coord_fixed": [ false ],
+"width_proportion": [      1 ],
+"height_proportion": [      1 ] 
+},
+"geoms": [
+ "geom3_line_timeSeries",
+"geom4_tallrect_timeSeries" 
+],
+"panel_background": {
+ "fill": "#E5E5E5",
+"colour": "transparent",
+"size": null,
+"linetype": "solid" 
+},
+"panel_border": [],
+"grid_major": {
+ "colour": "#FFFFFF",
+"size":      1,
+"linetype": "solid",
+"lineend": null,
+"loc": {
+ "x": [ 0.10859, 0.36111, 0.61364, 0.86616 ],
+"y": [ 0.04518, 0.31925, 0.59332, 0.86739 ] 
+} 
+},
+"grid_minor": {
+ "colour": "#F2F2F2",
+"size":   0.25,
+"linetype": "solid",
+"lineend": null,
+"loc": {
+ "x": [ 0.23485, 0.48737, 0.7399, 0.99242 ],
+"y": [ 0.18222, 0.45629, 0.73036 ] 
+} 
+},
+"axis1": {
+ "x": [
+ 0.10859,
+0.36111,
+0.61364,
+0.86616 
+],
+"xlab": [
+ "1980",
+"1990",
+"2000",
+"2010" 
+],
+"xrange": [ 1975.7, 2015.3 ],
+"xline": true,
+"xticks": true,
+"y": [
+ 0.04518,
+0.31925,
+0.59332,
+0.86739 
+],
+"ylab": [
+ "0",
+"2000",
+"4000",
+"6000" 
+],
+"yrange": [ -329.7, 6967.7 ],
+"yline": true,
+"yticks": true 
+},
+"xtitle": "year",
+"xanchor": "middle",
+"xangle":      0,
+"ytitle": "total_attacks",
+"yanchor": "end",
+"yangle":      0,
+"xlabs": [
+ "1980",
+"1990",
+"2000",
+"2010" 
+],
+"ylabs": [
+ "0",
+"2000",
+"4000",
+"6000" 
+],
+"legend": {},
+"options": {
+ "width":    400,
+"height":    400 
+} 
+} 
+} 
+}
