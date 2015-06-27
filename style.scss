@@ -25,9 +25,20 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 960px;
+  max-width: 1080px;
   padding: 0 10px;
   width: 100%;
+}
+
+.main {
+  float: left;
+  width: 75%;
+}
+
+.sidebar {
+  float: right;
+  margin-top: 1.8em;
+  width: 25%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -270,7 +281,7 @@ nav {
   padding-bottom: 1em;
   margin-bottom: none;
 }
-
+c
 .post {
   padding: .2em;
   
