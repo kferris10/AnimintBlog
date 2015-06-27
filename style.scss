@@ -256,8 +256,7 @@ nav {
 //
 
 .posts > .post {
-  padding: .2em;
-  margin-bottom: 1em;
+  margin-bottom: 1.3em;
   box-shadow: 0 0 .2em .2em #ccc;
   
   .entry {
@@ -265,13 +264,8 @@ nav {
   }
 }
 
-.posts > .post:last-child {
-  padding-bottom: 1em;
-  margin-bottom: none;
-}
-
 .post {
-  padding: .2em;
+  padding: .4em;
   
   blockquote {
     margin: 1.8em .8em;
