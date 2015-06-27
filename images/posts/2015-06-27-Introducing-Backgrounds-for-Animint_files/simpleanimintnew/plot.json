@@ -1,0 +1,169 @@
+{
+ "geoms": {
+ "geom1_point_p": {
+ "geom": "point",
+"classed": "geom1_point_p",
+"aes": [],
+"params": [],
+"subset_order": [],
+"types": {
+ "colour": "rgb",
+"x": "numeric",
+"y": "numeric",
+"PANEL": "integer",
+"fill": "rgb" 
+},
+"PANEL": 1,
+"chunks": 1,
+"total": 1,
+"chunk_order": [],
+"nest_order": [] 
+} 
+},
+"selectors": [],
+"plots": {
+ "p": {
+ "strips": {
+ "top": [
+ "" 
+],
+"right": [
+ "" 
+],
+"n": {
+ "top":      0,
+"right":      0 
+} 
+},
+"layout": {
+ "PANEL": [ 1 ],
+"ROW": [ 1 ],
+"COL": [ 1 ],
+"SCALE_X": [ 1 ],
+"SCALE_Y": [ 1 ],
+"AXIS_X": [ true ],
+"AXIS_Y": [ true ],
+"coord_fixed": [ false ],
+"width_proportion": [      1 ],
+"height_proportion": [      1 ] 
+},
+"geoms": [
+ "geom1_point_p" 
+],
+"panel_background": {
+ "fill": "#E5E5E5",
+"colour": "transparent",
+"size": null,
+"linetype": "solid" 
+},
+"panel_border": [],
+"grid_major": {
+ "colour": "#FFFFFF",
+"size":      1,
+"linetype": "solid",
+"lineend": null,
+"loc": {
+ "x": [ 0.15866, 0.3911, 0.62354, 0.85599 ],
+"y": [ 0.029981, 0.2234, 0.41683, 0.61025, 0.80368, 0.9971 ] 
+} 
+},
+"grid_minor": {
+ "colour": "#F2F2F2",
+"size":   0.25,
+"linetype": "solid",
+"lineend": null,
+"loc": {
+ "x": [ 0.042433, 0.27488, 0.50732, 0.73977, 0.97221 ],
+"y": [ 0.12669, 0.32012, 0.51354, 0.70696, 0.90039 ] 
+} 
+},
+"axis1": {
+ "x": [
+ 0.15866,
+0.3911,
+0.62354,
+0.85599 
+],
+"xlab": [
+ "2",
+"3",
+"4",
+"5" 
+],
+"xrange": [ 1.3174, 5.6196 ],
+"xline": true,
+"xticks": true,
+"y": [
+ 0.029981,
+0.2234,
+0.41683,
+0.61025,
+0.80368,
+0.9971 
+],
+"ylab": [
+ "10",
+"15",
+"20",
+"25",
+"30",
+"35" 
+],
+"yrange": [  9.225, 35.075 ],
+"yline": true,
+"yticks": true 
+},
+"xtitle": "wt",
+"xanchor": "middle",
+"xangle":      0,
+"ytitle": "mpg",
+"yanchor": "end",
+"yangle":      0,
+"xlabs": [
+ "2",
+"3",
+"4",
+"5" 
+],
+"ylabs": [
+ "10",
+"15",
+"20",
+"25",
+"30",
+"35" 
+],
+"legend": {
+ "factor(cyl)": {
+ "guide": "legend",
+"geoms": "point",
+"title": "factor(cyl)",
+"entries": [
+ {
+ "pointcolour": "#619CFF",
+"pointshape":     16,
+"pointsize":      2,
+"label": [ "8" ] 
+},
+{
+ "pointcolour": "#00BA38",
+"pointshape":     16,
+"pointsize":      2,
+"label": [ "6" ] 
+},
+{
+ "pointcolour": "#F8766D",
+"pointshape":     16,
+"pointsize":      2,
+"label": [ "4" ] 
+} 
+] 
+} 
+},
+"options": {
+ "width":    400,
+"height":    400 
+} 
+} 
+} 
+}
