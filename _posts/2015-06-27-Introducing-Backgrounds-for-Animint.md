@@ -1,7 +1,9 @@
-# Introducing Backgrounds for Animint
-Kevin  
-
-
+---
+layout: post
+title: Introducting Backgrounds for Animint
+date: June 27, 2015
+author: Kevin
+---
 
 [Animint](https://github.com/tdhock/animint) is an R package designed to create *anim*ated and *int*eractive web graphics.  It takes a simple ggplot like this one ...
 
