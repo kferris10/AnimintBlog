@@ -1,6 +1,9 @@
-# World Population by Income Choropleth with animint
-Kevin  
-
+---
+layout: post
+title: World Population by Income Choropleth with animint
+date: July 14, 2015
+author: Kevin  
+---
 
 
 Bob Rudis [published a post](http://rud.is/b/2015/07/09/faceted-world-population-by-income-choropleths-in-ggplot/) last week using ggplot2 to reproduce an [interactive visualization](http://www.pewglobal.org/interactives/global-population-by-income/) from Poynter.  And he conveniently put all his code [into a gist](https://gist.github.com/hrbrmstr/5a9a0d93cbb54f8ce777) so that we can reproduce it.  See [here](http://stackoverflow.com/questions/7715723/sourcing-r-script-over-https) for why I'm using RCurl.
