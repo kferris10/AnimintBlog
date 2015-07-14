@@ -1,0 +1,309 @@
+{
+ "geoms": {
+ "geom1_polygon_map": {
+ "geom": "polygon",
+"classed": "geom1_polygon_map",
+"aes": {
+ "x": "long",
+"y": "lat",
+"group": "group" 
+},
+"params": {
+ "colour": "#7F7F7F",
+"fill": "#FFFFFF",
+"size":   0.15 
+},
+"subset_order": [
+ "PANEL" 
+],
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"group": "integer",
+"PANEL": "factor" 
+},
+"PANEL": [ "1", "2", "3", "4", "5" ],
+"chunks": 1,
+"total": 1,
+"chunk_order": [],
+"nest_order": [
+ "PANEL",
+"group" 
+],
+"nextgeom": "geom2_polygon_map" 
+},
+"geom2_polygon_map": {
+ "geom": "polygon",
+"classed": "geom2_polygon_map",
+"aes": {
+ "x": "long",
+"y": "lat",
+"group": "group",
+"fill": "`Share %`",
+"clickSelects": "group" 
+},
+"params": {
+ "colour": "#7F7F7F",
+"size":   0.15 
+},
+"subset_order": [
+ "PANEL" 
+],
+"types": {
+ "fill": "character",
+"x": "numeric",
+"y": "numeric",
+"group": "integer",
+"clickSelects": "factor",
+"PANEL": "factor" 
+},
+"PANEL": [ "1", "2", "3", "4", "5" ],
+"chunks": 1,
+"total": 1,
+"chunk_order": [],
+"nest_order": [
+ "PANEL",
+"group" 
+] 
+} 
+},
+"selectors": {
+ "group": {
+ "selected": "1.1",
+"type": "single",
+"update": [
+ "geom2_polygon_map" 
+] 
+} 
+},
+"plots": {
+ "map": {
+ "strips": {
+ "top": [ "Poor", "Low Income", "Middle Income", "Upper-Middle Income", "High Income" ],
+"right": [
+ "" 
+],
+"n": {
+ "top": 3,
+"right":      0 
+} 
+},
+"layout": {
+ "PANEL": [ "1", "2", "3", "4", "5" ],
+"ROW": [ 1, 1, 2, 2, 3 ],
+"COL": [ 1, 2, 1, 2, 1 ],
+"label": [ "Poor", "Low Income", "Middle Income", "Upper-Middle Income", "High Income" ],
+"SCALE_X": [ 1, 1, 1, 1, 1 ],
+"SCALE_Y": [ 1, 1, 1, 1, 1 ],
+"AXIS_X": [ false, false, false, false, true ],
+"AXIS_Y": [ true, false, true, false, true ],
+"coord_fixed": [ false, false, false, false, false ],
+"width_proportion": [    0.5,    0.5,    0.5,    0.5,    0.5 ],
+"height_proportion": [ 0.33333, 0.33333, 0.33333, 0.33333, 0.33333 ] 
+},
+"geoms": [
+ "geom1_polygon_map",
+"geom2_polygon_map" 
+],
+"panel_background": [],
+"panel_border": [],
+"grid_major": {
+ "colour": "#E5E5E5",
+"size":    0.2,
+"linetype":      1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ 0.2292,
+0.4991,
+ 0.769 
+],
+"y": [
+ 0.10351,
+0.42252,
+0.74154 
+] 
+} 
+},
+"grid_minor": {
+ "colour": "#FAFAFA",
+"size":    0.5,
+"linetype":      1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ 0.094254,
+0.36415,
+0.63405,
+0.90395 
+],
+"y": [
+ 0.26302,
+0.58203,
+0.90104 
+] 
+} 
+},
+"axis1": {
+ "x": [
+ 0.2292,
+0.4991,
+ 0.769 
+],
+"xrange": [ -1.8492e+07, 1.8559e+07 ],
+"xline": false,
+"xticks": false,
+"y": [
+ 0.10351,
+0.42252,
+0.74154 
+],
+"yrange": [ -6.6223e+06, 9.051e+06 ],
+"yline": false,
+"yticks": false 
+},
+"axis2": {
+ "x": [
+ 0.2292,
+0.4991,
+ 0.769 
+],
+"xrange": [ -1.8492e+07, 1.8559e+07 ],
+"xline": false,
+"xticks": false,
+"y": [
+ 0.10351,
+0.42252,
+0.74154 
+],
+"yrange": [ -6.6223e+06, 9.051e+06 ],
+"yline": false,
+"yticks": false 
+},
+"axis3": {
+ "x": [
+ 0.2292,
+0.4991,
+ 0.769 
+],
+"xrange": [ -1.8492e+07, 1.8559e+07 ],
+"xline": false,
+"xticks": false,
+"y": [
+ 0.10351,
+0.42252,
+0.74154 
+],
+"yrange": [ -6.6223e+06, 9.051e+06 ],
+"yline": false,
+"yticks": false 
+},
+"axis4": {
+ "x": [
+ 0.2292,
+0.4991,
+ 0.769 
+],
+"xrange": [ -1.8492e+07, 1.8559e+07 ],
+"xline": false,
+"xticks": false,
+"y": [
+ 0.10351,
+0.42252,
+0.74154 
+],
+"yrange": [ -6.6223e+06, 9.051e+06 ],
+"yline": false,
+"yticks": false 
+},
+"axis5": {
+ "x": [
+ 0.2292,
+0.4991,
+ 0.769 
+],
+"xrange": [ -1.8492e+07, 1.8559e+07 ],
+"xline": false,
+"xticks": false,
+"y": [
+ 0.10351,
+0.42252,
+0.74154 
+],
+"yrange": [ -6.6223e+06, 9.051e+06 ],
+"yline": false,
+"yticks": false 
+},
+"xtitle": "",
+"xanchor": "middle",
+"xangle":      0,
+"ytitle": "",
+"yanchor": "end",
+"yangle":      0,
+"xlabs": [],
+"ylabs": [],
+"legend": {
+ "Share %": {
+ "guide": "legend",
+"geoms": "polygon",
+"title": "Share %",
+"entries": [
+ {
+ "polygonfill": "#EAECD8",
+"polygonsize":   0.15,
+"polygonlinetype":      1,
+"label": [ "0-2%" ] 
+},
+{
+ "polygonfill": "#D6DAB3",
+"polygonsize":   0.15,
+"polygonlinetype":      1,
+"label": [ "2.5-5%" ] 
+},
+{
+ "polygonfill": "#C2C98B",
+"polygonsize":   0.15,
+"polygonlinetype":      1,
+"label": [ "5.0-10%" ] 
+},
+{
+ "polygonfill": "#949D48",
+"polygonsize":   0.15,
+"polygonlinetype":      1,
+"label": [ "10.0-25%" ] 
+},
+{
+ "polygonfill": "#6E7537",
+"polygonsize":   0.15,
+"polygonlinetype":      1,
+"label": [ "25.0-50%" ] 
+},
+{
+ "polygonfill": "#494E24",
+"polygonsize":   0.15,
+"polygonlinetype":      1,
+"label": [ "50.0-75%" ] 
+},
+{
+ "polygonfill": "#BB792A",
+"polygonsize":   0.15,
+"polygonlinetype":      1,
+"label": [ "75.0-80%" ] 
+},
+{
+ "polygonfill": "#7C441C",
+"polygonsize":   0.15,
+"polygonlinetype":      1,
+"label": [ "80.0-100%" ] 
+} 
+] 
+} 
+},
+"title": "World Population by Income\n",
+"options": {
+ "width":    400,
+"height":    400 
+} 
+} 
+} 
+}
