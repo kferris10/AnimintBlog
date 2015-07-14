@@ -18,7 +18,7 @@ library(RCurl)
 
 <img src="{{ site.baseurl }}/images/posts/2015-07-14-World-Population-by-Income-Choropleth-with-animint_files/rudis_source-1.png" title="" alt="" style="display: block; margin: auto;" />
 
-[animint](https://github.com/tdhock/animint) uses ggplot2 plots to create *anim*ated and *int*eractive web graphics so we can use animint to extend Bob's plot.  First, we have to make a couple of small changes to the previous code.  `geom_map()` does not currently work with animint, so we have to merge the `world_map` and `share_dat` datasets then draw polygons for each country.  I'll also remove the `coord_equal()` and the `theme(legend.position = "bottom")` lines because they don't render as nicely in animint.
+[animint](https://github.com/tdhock/animint) uses ggplot2 plots to create *anim*ated and *int*eractive web graphics so we can use animint to extend Bob's plot.  First, we have to make a couple of small changes to the previous code.  `geom_map()` does not currently work with animint, so we have to merge the `world_map` and `share_dat` datasets then draw polygons for each country.  I'll also remove the `coord_equal()` and modify the `theme(legend.position = "bottom")` lines because they don't render as nicely in animint.
 
 
 ```r
@@ -45,7 +45,7 @@ gg <- gg + theme(legend.title=element_text(face="bold", hjust=0, size=12))
 gg <- gg + theme(legend.text=element_text(size=10))
 gg <- gg + theme(strip.text=element_text(face="bold", size=10))
 gg <- gg + theme(strip.background=element_blank())
-# gg <- gg + theme(legend.position="bottom")
+gg <- gg + theme(legend.position="right")  ## modified from the original
 
 ## I'm going to remove facet_wrap shortly, so I'll create a new object
 gg2 <- gg + facet_wrap(~label, ncol=2)
@@ -56,7 +56,7 @@ gg2 +
   geom_polygon(data=share_dat2, 
                aes(x=long, y=lat, group=group, fill=`Share %`), 
                color="#7f7f7f", size=0.15) + 
-  theme(legend.position="bottom")
+  theme(legend.position="bottom")  ## so the basic plot looks the same
 ```
 
 <img src="{{ site.baseurl }}/images/posts/2015-07-14-World-Population-by-Income-Choropleth-with-animint_files/polygon_map-1.png" title="" alt="" style="display: block; margin: auto;" />
