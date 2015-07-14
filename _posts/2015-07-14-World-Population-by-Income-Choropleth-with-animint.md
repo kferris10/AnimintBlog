@@ -55,7 +55,8 @@ gg2 +
   ## drawing polygons for Share for each country
   geom_polygon(data=share_dat2, 
                aes(x=long, y=lat, group=group, fill=`Share %`), 
-               color="#7f7f7f", size=0.15)
+               color="#7f7f7f", size=0.15) + 
+  theme(legend.position="bottom")
 ```
 
 <img src="{{ site.baseurl }}/images/posts/2015-07-14-World-Population-by-Income-Choropleth-with-animint_files/polygon_map-1.png" title="" alt="" style="display: block; margin: auto;" />
