@@ -37,7 +37,7 @@
 "y": "lat",
 "group": "group",
 "fill": "`% Change`",
-"showSelected": "change" 
+"showSelected": "label" 
 },
 "params": {
  "colour": "#7F7F7F",
@@ -62,7 +62,7 @@
 },
 "total": 5,
 "chunk_order": [
- "change" 
+ "label" 
 ],
 "nest_order": [
  "group" 
@@ -97,20 +97,14 @@
 } 
 },
 "selectors": {
- "change": {
+ "label": {
  "selected": "Poor",
 "type": "single",
 "update": [
- "geom2_polygon_map" 
+ "geom2_polygon_map",
+"geom3_text_labels" 
 ],
-"chunks": "change" 
-},
-"label": {
- "selected": "Poor",
-"type": "single",
-"update": [
- "geom3_text_labels" 
-] 
+"chunks": "label" 
 } 
 },
 "plots": {
