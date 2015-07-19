@@ -1,0 +1,236 @@
+{
+ "geoms": {
+ "geom1_line_plot": {
+ "geom": "line",
+"classed": "geom1_line_plot",
+"aes": {
+ "x": "hour",
+"y": "distance" 
+},
+"params": [],
+"subset_order": [],
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"PANEL": "integer",
+"group": "integer" 
+},
+"PANEL": 1,
+"chunks": 1,
+"total": 1,
+"chunk_order": [],
+"nest_order": [],
+"nextgeom": "geom2_point_plot" 
+},
+"geom2_point_plot": {
+ "geom": "point",
+"classed": "geom2_point_plot",
+"aes": {
+ "href": "links",
+"tooltip": "tooltip" 
+},
+"params": {
+ "na.rm": false 
+},
+"subset_order": [],
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"href": "factor",
+"tooltip": "factor",
+"PANEL": "integer" 
+},
+"PANEL": 1,
+"chunks": 1,
+"total": 1,
+"chunk_order": [],
+"nest_order": [] 
+} 
+},
+"selectors": [],
+"plots": {
+ "plot": {
+ "legend": {},
+"strips": {
+ "top": [
+ "" 
+],
+"right": [
+ "" 
+],
+"n": {
+ "top":      0,
+"right":      0 
+} 
+},
+"layout": {
+ "PANEL": [ 1 ],
+"ROW": [ 1 ],
+"COL": [ 1 ],
+"SCALE_X": [ 1 ],
+"SCALE_Y": [ 1 ],
+"AXIS_X": [ true ],
+"AXIS_Y": [ true ],
+"coord_fixed": [ false ],
+"width_proportion": [      1 ],
+"height_proportion": [      1 ] 
+},
+"geoms": [
+ "geom1_line_plot",
+"geom2_point_plot" 
+],
+"panel_background": {
+ "fill": "#E5E5E5",
+"colour": "transparent",
+"size":    0.5,
+"linetype":      1 
+},
+"panel_border": [],
+"grid_major": {
+ "colour": "#FFFFFF",
+"size":    0.5,
+"linetype":      1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ 0.045455,
+0.11381,
+0.18216,
+0.25051,
+0.31887,
+0.38722,
+0.45557,
+0.52392,
+0.59228,
+0.66063,
+0.72898,
+0.79733,
+0.86569,
+0.93404 
+],
+"y": [
+ 0.045455,
+0.26718,
+0.48891,
+0.71064,
+0.93237 
+] 
+} 
+},
+"grid_minor": {
+ "loc": {
+ "x": [
+ 0.011278,
+0.079631,
+0.14798,
+0.21634,
+0.28469,
+0.35304,
+0.42139,
+0.48975,
+0.5581,
+0.62645,
+0.69481,
+0.76316,
+0.83151,
+0.89986,
+0.96822 
+],
+"y": [
+ 0.15632,
+0.37805,
+0.59978,
+0.82151 
+] 
+} 
+},
+"axis1": {
+ "x": [
+ 0.045455,
+0.11381,
+0.18216,
+0.25051,
+0.31887,
+0.38722,
+0.45557,
+0.52392,
+0.59228,
+0.66063,
+0.72898,
+0.79733,
+0.86569,
+0.93404 
+],
+"xlab": [
+ "-1",
+"0",
+"1",
+"2",
+"3",
+"4",
+"5",
+"6",
+"7",
+"8",
+"9",
+"10",
+"11",
+"12" 
+],
+"xrange": [ -1.665, 12.965 ],
+"xline": true,
+"xticks": true,
+"y": [
+ 0.045455,
+0.26718,
+0.48891,
+0.71064,
+0.93237 
+],
+"ylab": [
+ "0",
+"5",
+"10",
+"15",
+"20" 
+],
+"yrange": [ -1.025, 21.525 ],
+"yline": true,
+"yticks": true 
+},
+"xtitle": "Hour",
+"xanchor": "middle",
+"xangle":      0,
+"ytitle": "Distance in miles",
+"yanchor": "end",
+"yangle":      0,
+"xlabs": [
+ "-1",
+"0",
+"1",
+"2",
+"3",
+"4",
+"5",
+"6",
+"7",
+"8",
+"9",
+"10",
+"11",
+"12" 
+],
+"ylabs": [
+ "0",
+"5",
+"10",
+"15",
+"20" 
+],
+"options": {
+ "width":    400,
+"height":    400 
+} 
+} 
+} 
+}
