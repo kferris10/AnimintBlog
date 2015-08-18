@@ -85,6 +85,7 @@ $ du -hsc FluView-new/*.tsv|tail
 ```
 
 The save chunk process of new animint compiler becomes more complex than the old one, but there are less chunk contents to write onto disk. As a result of trade-off, the compiling speed of the new animint compiler doesn't increase dramatically comparing to the old one.
+
 ```r
 > system.time(animint2dir(viz, out.dir = "FluView-old"))
    user  system elapsed 
